@@ -1,0 +1,21 @@
+{
+  "name": "health-factor-sentinel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc --outDir dist --module nodenext --moduleResolution nodenext --target es2022 --skipLibCheck --strict --types node src/server.ts",
+    "typecheck": "npm run build",
+    server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@bnbagent/sdk": "^0.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  },
+  "private": false
+}
